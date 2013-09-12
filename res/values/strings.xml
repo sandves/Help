@@ -1,0 +1,45 @@
+<resources>
+
+    <string name="app_name">Help</string>
+    <string name="title_section2">First aid</string>
+    <string name="title_section1">Location</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Help</string>
+    <string name="title_activity_firstaid">First aid</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_sms">Send SMS</string>
+    <string name="address">Address</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_gps_dialog">GPS is disabled, do you want to enable it?</string>
+    <string name="latlng">Latitude/Longtitude</string>
+    <string name="unknown">Unknown</string>
+    <string name="not_support_gps">This app reiquires GPS</string>
+    <string name="not_support_network">Address requires internet connection</string>
+    <string name="show_map">Show map</string>
+    <string name="call">Call</string>
+    <string name="torch_on">Torch on</string>
+    <string name="torch_off">Torch off</string>
+    <string name="accuracy">Accuracy</string>
+    <string name="timestamp">Last updated</string>
+    <string name="requires_internet">Requires internet connection</string>
+    <string name="pref_geoparse_default">0</string>
+    <string name="pref_emg_number_default">911</string>
+    <string name="pref_geoparse">Select location format</string>
+    <string name="pref_geoparse_summary">The format that the latitude/longtitude will be shown in</string>
+    <string name="pref_emg_number">Emergency number</string>
+    <string name="pref_emg_number_summary">The number that will be dialed when you hit the call button</string>
+    <string name="no_camera">There is no camera on this device!</string>
+    <string name="send_sms">SMS</string>
+    <string name="sms_number">Number:</string>
+    <string name="sms_text">Text:</string>
+    <string name="sms_send">Send</string>
+    <string name="sms_exception">Error! Check inputfields</string>
+    <string name="sms_success">The message was successfully sent!</string>
+    <string name="details">Details</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="copy">Copy</string>
+    <string name="cancel">Cancel</string>
+    <string name="success_copy">Text copied</string>
+    <string name="menu_hospitals">Show hospitals nearby</string>
+
+</resources>

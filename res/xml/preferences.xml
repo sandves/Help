@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ListPreference
+        android:defaultValue="@string/pref_geoparse_default"
+        android:dialogTitle="@string/pref_geoparse"
+        android:entries="@array/pref_geoparse_entries"
+        android:entryValues="@array/pref_geoparse_values"
+        android:key="pref_geoparse"
+        android:summary="@string/pref_geoparse_summary"
+        android:title="@string/pref_geoparse" />
+
+    <EditTextPreference
+        android:defaultValue="@string/pref_emg_number_default"
+        android:dialogTitle="@string/pref_emg_number"
+        android:inputType="number"
+        android:key="pref_emg_number"
+        android:summary="@string/pref_emg_number_summary"
+        android:title="@string/pref_emg_number" />
+
+</PreferenceScreen>

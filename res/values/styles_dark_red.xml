@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.dark_red" parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarItemBackground">@drawable/selectable_background_dark_red</item>
+        <item name="android:popupMenuStyle">@style/dark_red_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/dark_red_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/dark_red_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/dark_red_DropDownNav</item>
+        <item name="android:actionBarStyle">@style/dark_red_solid_ActionBar</item>
+        <!-- <item name="android:panelBackground">@drawable/menu_hardkey_panel_dark_red</item> -->
+                <!-- Light.DarkActionBar specific -->
+        <item name="android:actionBarWidgetTheme">@style/Theme.dark_red.widget</item>
+        
+
+    </style>
+
+    <style name="dark_red_solid_ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@drawable/ab_solid_dark_red</item>
+        <item name="android:backgroundStacked">@drawable/ab_solid_dark_red</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_dark_red</item>
+        <item name="android:progressBarStyle">@style/dark_red_ProgressBar</item>
+    </style>
+
+    <style name="dark_red_transparent_ActionBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/ab_transparent_dark_red</item>
+        <item name="android:progressBarStyle">@style/dark_red_ProgressBar</item>
+    </style>
+
+    <style name="dark_red_PopupMenu" parent="@android:style/Widget.Holo.ListPopupWindow">
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_dark_red</item>	
+    </style>
+
+    <style name="dark_red_DropDownListView" parent="@android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_dark_red</item>
+        
+    </style>
+
+    <style name="dark_red_ActionBarTabStyle" parent="@android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_dark_red</item>
+    </style>
+
+    <style name="dark_red_DropDownNav" parent="@android:style/Widget.Holo.Spinner">
+        <item name="android:background">@drawable/spinner_background_ab_dark_red</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_dark_red</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_dark_red</item>
+    </style>
+    
+    <style name="dark_red_ProgressBar" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_dark_red</item>
+    </style>
+
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.dark_red.widget" parent="@android:style/Theme.Holo">
+        <item name="android:popupMenuStyle">@style/dark_red_PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/dark_red_DropDownListView</item>
+    </style>
+    
+    <style name="sectionHeader" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:drawableBottom">@drawable/section_header</item>
+        <item name="android:drawablePadding">4dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/dark_red</item>
+        <item name="android:textSize">14sp</item>
+    </style>    
+
+</resources>

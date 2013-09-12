@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="pref_geoparse_entries">
+        <item name="degminsec">Degrees, minutes</item>
+        <item name="degmin">Degrees, minutes, seconds</item>
+        <item name="desiaml">Desimal</item>
+    </string-array>
+    
+    <string-array name="pref_geoparse_values">
+        <item name="degminsec">0</item>
+        <item name="degmin">1</item>
+        <item name="desimal">2</item>
+    </string-array>
+    
+    <string-array name ="first_aid_content">
+        <item>First to crashsite</item>
+        <item>Heart- and lung rescue</item>
+        <item>Intoxication/poisoning</item>
+        <item>Bleedings</item>
+        <item>Damaged by fire</item>
+        <item>Frostbite</item>
+        <item>Bone fracture</item>
+        <item>Head injury</item>
+        <item>Back/neck injury</item>
+        <item>Sudden illness</item>
+    </string-array>
+    
+     <array name="firstaid_icons">
+        <item>@drawable/crash</item>
+        <item>@drawable/heart_lung</item>
+        <item>@drawable/toxic</item>
+        <item>@drawable/blood</item>
+        <item>@drawable/fire</item>
+        <item>@drawable/snowflake</item>
+        <item>@drawable/fracture</item>
+        <item>@drawable/head</item>
+        <item>@drawable/spine</item>
+        <item>@drawable/sudden_illness</item>
+    </array>
+
+</resources>

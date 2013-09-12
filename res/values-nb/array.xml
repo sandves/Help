@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string-array name="pref_geoparse_entries">
+        <item name="degminsec">Grader, minutt</item>
+        <item name="degmin">Grader, minutt, sekund</item>
+        <item name="desiaml">Desimal</item>
+    </string-array>
+    
+    <string-array name="pref_geoparse_values">
+        <item name="degminsec">0</item>
+        <item name="degmin">1</item>
+        <item name="desimal">2</item>
+    </string-array>
+    
+    <string-array name ="first_aid_content">
+        <item>Først til ulykkessted</item>
+        <item>Hjerte- og lungeredning</item>
+        <item>Rus/forgiftning</item>
+        <item>Blødninger</item>
+        <item>Brannskader</item>
+        <item>Frostskader</item>
+        <item>Bruddskader</item>
+        <item>Hodeskader</item>
+        <item>Rygg/nakke</item>
+        <item>Akutt sykdom</item>
+    </string-array>
+
+</resources>
